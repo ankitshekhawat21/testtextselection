@@ -1,0 +1,13 @@
+! == Enable Text Selection on Test Sites ==
+testbook.com##body:style(user-select: text !important)
+testbook.com##*:style(user-select: text !important)
+oliveboard.in##body:style(user-select: text !important)
+oliveboard.in##*:style(user-select: text !important)
+testranking.com##body:style(user-select: text !important)
+testranking.com##*:style(user-select: text !important)
+
+! == Optional: Remove known overlay elements ==
+testbook.com##.no-select
+testbook.com##.overlay
+oliveboard.in##.no-select
+oliveboard.in##.blocking-layer
